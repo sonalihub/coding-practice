@@ -22,7 +22,7 @@ public class ComparableDemo {
 
         Collections.sort(students);
 
-        //printing before sorting
+        //printing after sorting
         System.out.println("after sorting: "+ students);
     }
 }
