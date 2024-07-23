@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class ConcurrentModificationExDemo {
+public class FailFastList {
     public static void main(String[] args) {
         /**
          * when you try to modify a list while iterating it, it throws Concurrent modification exception.
