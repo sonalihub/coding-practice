@@ -2,6 +2,7 @@ package com.codingpractice.collection;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class CustomThread extends Thread {
     static Map<Integer, String> map = new HashMap<>();
@@ -35,5 +36,6 @@ public class CustomThread extends Thread {
             }
         });
 
+        System.out.println(map);
     }
 }
